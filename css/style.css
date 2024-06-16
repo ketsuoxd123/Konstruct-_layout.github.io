@@ -6,6 +6,11 @@ html {
 }
 a {
     text-decoration: none;
+    transition: color .3s ease-in-out;
+}
+a:hover {
+    color: #00A4E5;
+    transition: color .3s ease-in-out;
 }
 body {
     margin: 0;
